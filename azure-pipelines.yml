@@ -22,7 +22,7 @@ steps:
 
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'azureml-mldemo'
+    azureSubscription: 'azureml-mldemo' # This is the name of Azure pipeline Service connection to Azure ML 
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
