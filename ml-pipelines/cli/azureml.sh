@@ -1,7 +1,7 @@
 # TRAIN
 
 # Create train job compute cluster
-az ml compute create --file train/compute.yml
+#az ml compute create --file train/compute.yml
 # Register data asset 
 az ml data create --file train/data.yml
 # Register train environment 

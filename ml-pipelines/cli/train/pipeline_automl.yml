@@ -30,7 +30,7 @@ jobs:
   prep_data:
     name: prep_data
     display_name: prep-data
-    code: ../../../component/prep
+    code: ../../../components/prep
     command: >-
       python prep.py 
       --raw_data ${{inputs.raw_data}} 
@@ -74,7 +74,7 @@ jobs:
   register_model:
     name: register_model
     display_name: register-model  
-    code: ../../../component/register
+    code: ../../../components/register
     command: >-
       python register_automl.py 
       --model_name ${{inputs.model_name}} 
