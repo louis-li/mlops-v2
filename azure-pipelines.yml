@@ -22,7 +22,7 @@ steps:
 
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'MCAPS-Hybrid-REQ-42154-2022-louisli'
+    azureSubscription: 'azureml-mldemo'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
