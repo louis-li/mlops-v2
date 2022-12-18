@@ -8,7 +8,7 @@ steps:
 - task: UsePythonVersion@0
   inputs:
     versionSpec: '3.8'
-- script: pip install -r ci-cd/dev-requirements.txt
+- script: pip install -r ci-cd/azure-pipelines/dev-requirements.txt
   displayName: 'pip install notebook reqs'
 - task: Bash@3
   inputs:
