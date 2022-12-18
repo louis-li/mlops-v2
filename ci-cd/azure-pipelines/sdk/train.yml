@@ -28,4 +28,4 @@ steps:
     inlineScript: |
            sed -i -e "s/DefaultAzureCredential/AzureCliCredential/g" train-sdkv2.ipynb
            papermill -k python train-sdkv2.ipynb train-sdkv2.output.ipynb
-    workingDirectory: 'ml-pipelines'
+    workingDirectory: 'ml-pipelines/sdk'
