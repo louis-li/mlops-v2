@@ -12,12 +12,12 @@ steps:
   displayName: 'pip install notebook reqs'
 - task: Bash@3
   inputs:
-    filePath: 'ci-cd/setup-sdk.sh'
+    filePath: 'ci-cd/azure-pipelines/setup-sdk.sh'
   displayName: 'set up sdk'
 
 - task: Bash@3
   inputs:
-    filePath: 'ci-cd/setup-cli.sh'
+    filePath: 'ci-cd/azure-pipelines/setup-cli.sh'
   displayName: 'set up CLI'
 
 - task: AzureCLI@2
