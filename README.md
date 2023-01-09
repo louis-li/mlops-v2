@@ -26,10 +26,10 @@ This training demo is inspired by the [MLOps v2 solution accelerator](https://gi
 |   |   |-- register_automl.py                   # Python script that register automl trained model in AzureML Model Registry
 |   |-- train                                    #
 |   |   |-- train.py                             # Python script that reads train data, trains and saves an ML model
-|   |-- evaluate.yml                             # AzureML Component definition for |evaluate.py| 
-|   |-- prep.yml                                 # AzureML Component definition for |prep.py| 
-|   |-- register.yml                             # AzureML Component definition for |register.py| 
-|   |-- train.yml                                # AzureML Component definition for |train.py| 
+|   |-- evaluate.yml                             # AzureML Component definition for 'evaluate.py'
+|   |-- prep.yml                                 # AzureML Component definition for 'prep.py'
+|   |-- register.yml                             # AzureML Component definition for 'register.py'
+|   |-- train.yml                                # AzureML Component definition for 'train.py'
 |-- data                                         #
 |   |-- taxi-batch.csv                           # Data used for testing batch endpoint
 |   |-- taxi-data.csv                            # Data used for training & testing ML model
