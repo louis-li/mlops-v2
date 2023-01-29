@@ -74,4 +74,20 @@ In order to execute the training, you can follow the following guide:
 
 Pay attention to the input and output arguments of these scripts and how are they used. When it comes to arguments, think about variables that need to change from one execution to another.
 
-3- The objective of the CI/CD pipelines available in `ci-cd/azure-pipelines` is to automate the model training and deployment delivery process  using CI/CD Azure Devops pipelines.
+3- The objective of the CI/CD pipelines available in `ci-cd/azure-pipelines` is to automate the model training process using CI/CD Azure Devops pipelines.
+
+In this CI/CD pipeline, we only consider the model training parts and do not add the deployment parts. You can add them as needed to call the deployment parts.
+
+## References
+
+### File Call Relationship
+
+The following is a file call relationship diagram of this repository. The orange parts represent the folders.
+![File call relation](./imgs/File_call_relation.svg)
+
+### Parameters
+
+The following diagram is about the required parameters that you are advised to set or modify in this repository. The orange part represents the folders. The pink parameters need to be checked, set or modified. The green parameters are optional but recommended to change to an appropriate location.
+![File call relation](./imgs/Parameters.svg)
+
+In the repository, there are still many given parameters or names that can be defined or modified as needed.
