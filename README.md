@@ -88,6 +88,6 @@ The following is a file call relationship diagram of this repository. The orange
 ### Parameters
 
 The following diagram is about the required parameters that you are advised to set or modify in this repository. The orange part represents the folders. The pink parameters need to be checked, set or modified. The green parameters are optional but recommended to change to an appropriate location.
-![File call relation](./imgs/Parameters.svg)
+![Parameters](./imgs/Parameters.svg)
 
 In the repository, there are still many given parameters or names that can be defined or modified as needed.
